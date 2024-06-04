@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+
+body {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 25%; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.middle {
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 25%;
+  font-size: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #58508d
+}
+
+tr {
+  height: 48px;
+}
+
+td {
+  border: 4px outset #eee;
+  border-radius: 4px;
+  background-color: #ddd;
+  width: 40px;
+  height: 40px;
+}
+
+td.unrevealed {
+  border: 4px outset #eee;
+}
+
+td.revealed {
+  border: 0px;
+  background-color: #eee;
+  width: 48px;
+  height: 48px;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+td.unrevealed:hover {
+  border: 4px outset #ddd;
+  background-color: #ccc;
+}
+
+td.revealed:hover {
+  background-color: #ccc;
+}
+
+td > p {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.count-1 {
+  color: #003f5c
+}
+
+.count-2 {
+  color: #58508d
+}
+
+.count-3 {
+  color: #8a508f
+}
+
+.count-4 {
+  color: #bc5090
+}
+
+.count-5 {
+  color: #de5a79
+}
+
+.count-6 {
+  color: #ff6361
+}
+
+.count-7 {
+  color: #ff8531
+}
+
+.count-8 {
+  color: #ffa600
+}
